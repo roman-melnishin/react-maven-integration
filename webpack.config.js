@@ -1,11 +1,12 @@
 var path = require('path');
 
 module.exports = {
-    // devtool: 'source-map',
+    devtool: 'source-map',
 	entry: './app/index.js',
     output: {
         path: path.join(__dirname, 'target', 'widget'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+		publicPath: '/target/widget/'
     },
     module: {
         loaders: [
