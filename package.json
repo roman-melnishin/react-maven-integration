@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
-    "build": "webpack -p"
+    "build": "BABEL_ENV=production webpack -p"
   },
   "author": "Roman Melnishin",
   "homepage": "https://github.com/roman-melnishin/react-maven-integration.git",
@@ -19,7 +19,7 @@
     "css-loader": "^0.28.7",
     "style-loader": "^0.19.0",
     "webpack": "^2.0.0",
-    "webpack-dev-server": "^2.0.0"
+    "webpack-dev-server": "2.5.0"
   },
   "dependencies": {
     "prop-types": "^15.6.0",
