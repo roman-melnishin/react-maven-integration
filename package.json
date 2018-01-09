@@ -1,11 +1,11 @@
 {
-  "name": "widget",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline",
-    "build": "BABEL_ENV=production webpack -p"
+    "start": "NODE_ENV=dev webpack-dev-server --hot --inline",
+    "build": "BABEL_ENV=prod webpack -p"
   },
   "author": "Roman Melnishin",
   "homepage": "https://github.com/roman-melnishin/react-maven-integration.git",
