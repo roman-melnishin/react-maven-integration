@@ -31,19 +31,6 @@
                     <liferayVersion>${liferay.version}</liferayVersion>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>maven-jetty-plugin</artifactId>
-                <version>6.1.26</version>
-                <configuration>
-                    <connectors>
-                        <connector implementation="org.mortbay.jetty.bio.SocketConnector">
-                            <port>8080</port>
-                        </connector>
-                    </connectors>
-                    <overrideWebXml>dev_override_web.xml</overrideWebXml>
-                </configuration>
-            </plugin>
 
             <plugin>
                 <groupId>com.github.eirslett</groupId>
